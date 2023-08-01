@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const CreditTile = styled.div`
   display: flex;
   width: 49%;
-  //   height: 168px;
   height: 25vh;
   padding: 25px 36px;
   flex-direction: row;

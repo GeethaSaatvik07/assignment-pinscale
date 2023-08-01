@@ -49,36 +49,15 @@ export const TransactionNameHeading = styled(TransactionUsernameHeadings)`
 `;
 
 export const TransactionCategoryHeading = styled(TransactionUsernameHeadings)`
-  //   color: #718ebf;
-  //   font-family: Inter;
-  //   font-size: 16px;
-  //   font-style: normal;
-  //   font-weight: 400;
-  //   line-height: normal;
-  //   //   margin-right: 90px;
   width: 80px;
   margin-right: 96px;
 `;
 
 export const TransactionDateHeading = styled(TransactionUsernameHeadings)`
-  //   color: #718ebf;
-  //   font-family: Inter;
-  //   font-size: 16px;
-  //   font-style: normal;
-  //   font-weight: 400;
-  //   line-height: normal;
-  //   //   margin-right: 90px;
   width: 135px;
   margin-right: 100px;
 `;
 
 export const TransactionAmountHeading = styled(TransactionUsernameHeadings)`
-  //   color: #343c6a;
-  //   font-family: Inter;
-  //   font-size: 16px;
-  //   font-style: normal;
-  //   font-weight: 500;
-  //   line-height: normal;
-  //   text-align: right;
   width: 80px;
 `;

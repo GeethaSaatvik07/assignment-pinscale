@@ -18,40 +18,11 @@ import {
   CancelPopupButton,
 } from "./styledComponents";
 
-// const DeleteTransactionPopup = (props) => {
 class LogoutPopup extends Component {
-  //   onClickDeleteTransaction = async () => {
-  //     const { transactionDetails } = this.props;
-  //     const { id } = transactionDetails;
-  //     console.log(id);
-  //     const apiUrl =
-  //       "https://bursting-gelding-24.hasura.app/api/rest/delete-transaction";
-  //     const deleteTransactionDetails = {
-  //       id,
-  //     };
-  //     const options = {
-  //       headers: {
-  //         "content-type": "application/json",
-  //         "x-hasura-admin-secret":
-  //           "g08A3qQy00y8yFDq3y6N1ZQnhOPOa4msdie5EtKS1hFStar01JzPKrtKEzYY2BtF",
-  //         "x-hasura-role": "user",
-  //         "x-hasura-user-id": "1",
-  //       },
-  //       method: "DELETE",
-  //       body: JSON.stringify(deleteTransactionDetails),
-  //     };
-  //     const response = await fetch(apiUrl, options);
-  //     const data = await response.json();
-  //     console.log(data);
-  //     // if (response.ok) {
-  //     //   this.close();
-  //     // }
-  //   };
-
   onClickLogout = () => {
     const { history } = this.props;
     Cookies.remove("user_id");
-    history.replace("/login");
+    history.replace("/assignment-pinscale/login");
   };
 
   render() {

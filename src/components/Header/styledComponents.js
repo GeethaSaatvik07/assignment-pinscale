@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeaderStyle = styled.nav`
   display: flex;
   width: 100%;
-  //   padding: 24px 40px;
   justify-content: space-between;
   align-items: center;
   background: #fff;
@@ -37,8 +36,6 @@ export const AddTransactionButton = styled.button`
 export const AddTransactionContext = styled.p`
   color: #fff;
   text-align: center;
-
-  /* Button 2 Medium 15p */
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -57,10 +54,3 @@ export const PopupBackground = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-// export const PopupCloseButton = styled.button`
-//   background: none;
-//   border: none;
-//   outline: none;
-//   margin-left: auto;
-// `;

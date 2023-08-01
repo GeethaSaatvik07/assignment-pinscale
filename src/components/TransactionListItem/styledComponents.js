@@ -14,7 +14,6 @@ export const TransactionItem = styled.div`
 
 export const CreditDebitSymbolAndName = styled.div`
   display: flex;
-  //   justify-content: space-between;
   align-items: center;
   width: 30%;
 `;
@@ -43,7 +42,6 @@ export const TransactionCategory = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  //   margin-right: 90px;
   width: 80px;
 `;
 
@@ -54,7 +52,6 @@ export const TransactionDate = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  //   margin-right: 90px;
   width: 150px;
 `;
 
@@ -75,7 +72,6 @@ export const TransactionCreditAmount = styled(TransactionDebitAmount)`
 
 export const TransactionEditAndDelete = styled.div`
   display: flex;
-  //   justify-content: space-between;
   align-items: center;
   width: 10%;
 `;

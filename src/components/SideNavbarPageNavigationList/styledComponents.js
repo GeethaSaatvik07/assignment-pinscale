@@ -6,9 +6,6 @@ export const PageNavigation = styled.li`
   gap: 26px;
   list-style-type: none;
   margin-bottom: 20px;
-  //   gap: 26px;
-
-  /* Heading three medium 18p */
   font-family: Inter;
   font-size: 18px;
   font-style: normal;

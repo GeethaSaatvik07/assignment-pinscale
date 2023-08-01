@@ -5,11 +5,8 @@ export const AccountProfileCard = styled.div`
   padding: 24px 32px 0px 24px;
   align-items: center;
   gap: 47px;
-  //   align-self: stretch;
   width: 130%;
   margin-top: 350px;
-  //   display: flex;
-  //   align-items: center;
   border-top: 1px solid #eaecf0;
 `;
 
@@ -22,7 +19,6 @@ export const ProfileAvatar = styled.img`
   align-items: center;
   border-radius: 50%;
   margin-right: 0px;
-  // background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 `;
 
 export const ProfileNameAndEmail = styled.p`
@@ -32,7 +28,6 @@ export const ProfileNameAndEmail = styled.p`
 
 export const ProfileNameAndLogout = styled.div`
   display: flex;
-  //   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-left: 0px;
@@ -40,13 +35,11 @@ export const ProfileNameAndLogout = styled.div`
 
 export const ProfileName = styled.h1`
   color: #505887;
-
-  /* Text sm / Semibold */
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 `;
 
 export const ProfileEmail = styled.p`
@@ -55,7 +48,7 @@ export const ProfileEmail = styled.p`
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 `;
 
 export const ProfileLogoutIcon = styled.button`

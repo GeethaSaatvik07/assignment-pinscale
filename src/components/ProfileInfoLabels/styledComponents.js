@@ -4,7 +4,6 @@ export const ProfileInfoLabelAndBar = styled.div`
   display: flex;
   flex-direction: column;
   margin-right: 29px;
-  //   margin-bottom: 22px;
 `;
 
 export const ProfileLabel = styled.label`

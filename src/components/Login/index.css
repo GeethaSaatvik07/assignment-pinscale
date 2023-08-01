@@ -16,18 +16,6 @@
   }
 }
 
-.login-website-logo-mobile-image {
-  width: 165px;
-  margin-top: 50px;
-  margin-bottom: 35px;
-}
-
-@media screen and (min-width: 992px) {
-  .login-website-logo-mobile-image {
-    display: none;
-  }
-}
-
 .login-image {
   width: 278px;
 }
@@ -38,16 +26,6 @@
     max-width: 524px;
     flex-shrink: 1;
     margin-right: 20px;
-  }
-}
-
-.login-website-logo-desktop-image {
-  width: 185px;
-}
-
-@media screen and (max-width: 991px) {
-  .login-website-logo-desktop-image {
-    display: none;
   }
 }
 

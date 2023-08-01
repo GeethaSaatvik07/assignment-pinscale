@@ -63,7 +63,6 @@ class DashboardLastSevenDaysOverview extends Component {
         };
     const response = await fetch(apiUrl, options);
     const data = await response.json();
-    // console.log(data.last_7_days_transactions_credit_debit_totals);
     if (response.ok) {
       const gettingOverviewDataList = isUserAdmin
         ? data.last_7_days_transactions_totals_admin

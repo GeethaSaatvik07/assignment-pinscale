@@ -101,14 +101,6 @@ const SideNavbar = (props) => {
         </CompanyName>
       </NameAndLogo>
       <CompanyPageNavigation>
-        {/* {pageNavigationList.map((eachPage) => (
-            <SideNavbarPageNavigationList
-              key={eachPage.id}
-              pageId={pageId}
-              navigationDetails={eachPage}
-              onClickChangePage={this.onClickChangePage}
-            />
-          ))} */}
         <SideNavbarPageNavigationList active={active} />
         <SideNavbarAccountProfile />
       </CompanyPageNavigation>

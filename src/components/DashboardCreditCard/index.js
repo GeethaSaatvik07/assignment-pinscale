@@ -52,14 +52,6 @@ class DashboardCreditCard extends Component {
         };
     const response = await fetch(apiUrl, options);
     const data = await response.json();
-    // const getCreditAdminSum = data.transaction_totals_admin.map(
-    //   (each) => each.type === "credit"
-    // );
-    // console.log("000");
-    // const getCreditSum = data.totals_credit_debit_transactions.map(
-    //   (each) => each.type === "credit"
-    // );
-    // console.log("111");
     const getCreditData = isUserAdmin
       ? data.transaction_totals_admin[0]
       : data.totals_credit_debit_transactions[1];

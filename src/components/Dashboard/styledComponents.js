@@ -7,7 +7,6 @@ export const DashboardPage = styled.div`
 
 export const DashboardWithHeader = styled.div`
   width: 82.64%;
-  //   width: 80.5%;
   height: 100vh;
   display: flex;
   flex-direction: column;

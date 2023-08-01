@@ -53,15 +53,6 @@ class DashboardDebitCard extends Component {
     const response = await fetch(apiUrl, options);
     const data = await response.json();
     console.log(data);
-    // const getDebitAdminSum = data.transaction_totals_admin.map(
-    //   (each) => each.type === "debit"
-    // );
-    // console.log("00");
-    // console.log(data.totals_credit_debit_transactions);
-    // const getDebitSum = data.totals_credit_debit_transactions.map(
-    //   (each) => each.type === "debit"
-    // );
-    // console.log(data.totals_credit_debit_transactions);
     const getDebitData = isUserAdmin
       ? data.transaction_totals_admin[1]
       : data.totals_credit_debit_transactions[0];

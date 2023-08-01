@@ -26,7 +26,6 @@ class DeleteTransactionPopup extends Component {
     const userId = Cookies.get("user_id");
     const { transactionDetails } = this.props;
     const { id } = transactionDetails;
-    // console.log(id);
     const apiUrl =
       "https://bursting-gelding-24.hasura.app/api/rest/delete-transaction";
     const deleteTransactionDetails = {

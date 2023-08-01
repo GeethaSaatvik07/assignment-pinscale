@@ -31,10 +31,9 @@ class LoginForm extends Component {
 
     Cookies.set("user_id", userId, {
       expires: 30,
-      path: "/",
+      path: "/assignment-pinscale/",
     });
-    history.replace("/");
-    // console.log("Enter");
+    history.replace("/assignment-pinscale/");
   };
 
   onSubmitFailure = (errorMsg) => {
@@ -57,15 +56,10 @@ class LoginForm extends Component {
     };
     const response = await fetch(apiUrl, options);
     const data = await response.json();
-    // console.log(data);
     if (response.ok) {
-      //   const getUerId = data.get_user_id;
       const userId = data.get_user_id[0].id;
-      //   console.log(userId);
-
       this.onSubmitSuccess(userId);
     } else {
-      console.log("Error");
       this.onSubmitFailure(data.error_msg);
     }
   };
@@ -112,15 +106,10 @@ class LoginForm extends Component {
     const { showSubmitError, errorMsg } = this.state;
     const jwtToken = Cookies.get("user_id");
     if (jwtToken !== undefined) {
-      return <Redirect to="/" />;
+      return <Redirect to="/assignment-pinscale/" />;
     }
     return (
       <div className="login-form-container">
-        <img
-          src="https://www.edumilestones.com/career-library/images/investement-plan.png"
-          className="login-website-logo-mobile-image"
-          alt="website logo"
-        />
         <img
           src="https://www.edumilestones.com/career-library/images/investement-plan.png"
           className="login-image"

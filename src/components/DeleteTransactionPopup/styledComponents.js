@@ -7,7 +7,6 @@ export const DeletePopupContainer = styled.div`
   border-radius: 16px;
   background: #fff;
 
-  /* Shadow / lg */
   box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05),
     0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 `;
@@ -64,14 +63,13 @@ export const DangerHeading = styled.p`
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
 `;
 
 export const PopupCloseButton = styled.button`
   background: none;
   border: none;
   outline: none;
-  //   margin-right: 24px;
   cursor: pointer;
 `;
 
@@ -87,7 +85,7 @@ export const DeletePopupSubline = styled.p`
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 `;
 
 export const DeletePopupButtonsContainer = styled.div`
@@ -111,12 +109,11 @@ export const DeletePopupButton = styled.button`
   border: none;
   cursor: pointer;
 
-  /* text-sm / leading-5 / font-medium */
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 `;
 
 export const LeaveItPopupButton = styled.button`
@@ -132,10 +129,9 @@ export const LeaveItPopupButton = styled.button`
   text-align: center;
   cursor: pointer;
 
-  /* text-sm / leading-5 / font-medium */
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 `;

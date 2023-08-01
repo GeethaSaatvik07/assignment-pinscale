@@ -19,9 +19,6 @@ export const LastTransactionHeading = styled.p`
 
 export const RecentTransactionsContainer = styled.div`
   display: flex;
-  //   width: 1110px;
-  //   height: 210px;
-  //   padding: 12px 25px 8px 24px;
   width: 100%;
   height: 100%;
   padding: 10px;

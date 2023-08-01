@@ -14,7 +14,6 @@ export const TransactionItem = styled.div`
 
 export const CreditDebitSymbolAndName = styled.div`
   display: flex;
-  //   justify-content: space-between;
   align-items: center;
   width: 30%;
 `;
@@ -80,7 +79,6 @@ export const TransactionDate = styled.p`
 
 export const TransactionDebitAmount = styled.p`
   color: #fe5c73;
-  //   text-align: right;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;

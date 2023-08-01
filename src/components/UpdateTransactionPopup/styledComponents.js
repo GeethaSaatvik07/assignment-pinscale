@@ -21,7 +21,7 @@ export const UpdateTransactionHeading = styled.h1`
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
   margin-left: 24px;
 `;
 
@@ -39,7 +39,7 @@ export const PopupHeadingSubline = styled.p`
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
   margin-left: 24px;
   margin-top: 8px;
 `;
@@ -111,11 +111,9 @@ export const PopupUpdateTransactionButton = styled.button`
   margin-bottom: 32px;
   color: #fff;
   text-align: center;
-
-  /* text-sm / leading-5 / font-medium */
   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 `;

@@ -7,7 +7,6 @@ export const ProfilePage = styled.div`
 
 export const ProfileWithHeader = styled.div`
   width: 82.64%;
-  //   width: 80.5%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +31,6 @@ export const ProfileCard = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  //   background-color: lightgray;
   width: 200px;
   height: 200px;
   flex-shrink: 0;

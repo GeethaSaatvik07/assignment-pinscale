@@ -1,5 +1,4 @@
 import { Component } from "react";
-// import { format } from "date-fns";
 import Cookies from "js-cookie";
 
 import {
@@ -104,11 +103,6 @@ class UpdateTransactionPopup extends Component {
   render() {
     const { close } = this.props;
     const { name, type, category, amount, date } = this.state;
-    // console.log(date);
-    // const myDate = new Date(date);
-    // console.log(myDate);
-    // const formattedDate = format(myDate, "dd-MM-yyyy");
-    // console.log("Error");
     return (
       <PopupContainer>
         <UpdateTransactionHeadingAndCloseButton>
@@ -202,7 +196,6 @@ class UpdateTransactionPopup extends Component {
             placeholder="Select Date"
             required
             onChange={this.onChangeDate}
-            // value={formattedDate}
             value={date}
           />
         </PopupLabelAndInput>

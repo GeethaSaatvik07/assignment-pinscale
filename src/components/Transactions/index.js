@@ -7,19 +7,11 @@ import {
   FilterCreditDebit,
   TransactionsWithHeader,
   TransactionsContainer,
-  //   TotalTransactionsList,
-  //   TransactionItemHeadings,
-  //   TransactionNameHeading,
-  //   CategoryDateAmountHeadings,
-  //   TransactionCategoryHeading,
-  //   TransactionDateHeading,
-  //   TransactionAmountHeading,
 } from "./styledComponents";
 
 import Header from "../Header";
 import SideNavbar from "../SideNavbar";
 import TransactionFilters from "../TransactionFilters";
-// import TransactionListItem from "../TransactionListItem";
 import TransactionsListContainer from "../TransactionsListContainer";
 import TransactionsAdminListContainer from "../TransactionsAdminListContainer";
 
@@ -82,34 +74,3 @@ class Transactions extends Component {
 }
 
 export default Transactions;
-
-// let filteredTransactionsList = null;
-// if (filterId > 0) {
-//   filteredTransactionsList = allTransactionsList.filter(
-//     (eachTransaction) =>
-//       eachTransaction.type === transactionFiltersList[filterId].filter
-//   );
-// } else {
-//   filteredTransactionsList = allTransactionsList;
-// }
-
-// {/* <TotalTransactionsList>
-//   <TransactionItemHeadings>
-//     <TransactionNameHeading>
-//       Transaction Name
-//     </TransactionNameHeading>
-//     <CategoryDateAmountHeadings>
-//       <TransactionCategoryHeading>
-//         Category
-//       </TransactionCategoryHeading>
-//       <TransactionDateHeading>Date</TransactionDateHeading>
-//       <TransactionAmountHeading>Amount</TransactionAmountHeading>
-//     </CategoryDateAmountHeadings>
-//   </TransactionItemHeadings>
-//   {filteredTransactionsList.map((eachTransaction) => (
-//     <TransactionListItem
-//       key={eachTransaction.id}
-//       transactionDetails={eachTransaction}
-//     />
-//   ))}
-// </TotalTransactionsList> */}

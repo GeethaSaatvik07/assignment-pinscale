@@ -28,8 +28,8 @@ const TransactionAdminListItem = (props) => {
   const formattedDate = format(myDate, "dd MMM, hh:mm a");
   const userIdAvatar =
     userId % 2 === 0
-      ? "https://www.google.com/imgres?imgurl=https%3A%2F%2Fblog-pixomatic.s3.appcnt.com%2Fimage%2F22%2F01%2F26%2F61f166e07f452%2F_orig%2Fpixomatic_1572877263963.png&tbnid=ep8YiRkRyhSwEM&vet=1&imgrefurl=https%3A%2F%2Fpixomatic.us%2Fblog%2Fsocial-media%2Ftips-professional-profile-picture-linkedin%2F&docid=yEbRnydunPWjQM&w=853&h=853&hl=en-GB&source=sh%2Fx%2Fim%2F3"
-      : "https://www.google.com/imgres?imgurl=https%3A%2F%2Fblog-pixomatic.s3.appcnt.com%2Fimage%2F22%2F01%2F26%2F61f166e1377d4%2F_orig%2Fpixomatic_1572877223091.png&tbnid=NNt9zccNm0EUWM&vet=1&imgrefurl=https%3A%2F%2Fpixomatic.us%2Fblog%2Fsocial-media%2Ftips-professional-profile-picture-linkedin%2F&docid=yEbRnydunPWjQM&w=498&h=498&hl=en-GB&source=sh%2Fx%2Fim%2F3";
+      ? "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKB04dAUNrF-lOlbquLikauypNcAN-pMD5jw&usqp=CAU"
+      : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpFreAtrOzdfbsrEHLCtHyBDY4x80z6RBeVA&usqp=CAU";
 
   return (
     <TransactionItem>
