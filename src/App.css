@@ -7,4 +7,22 @@
   text-decoration: none;
 }
 
+/* const App = () => (
+  <Switch>
+    <Route exact path="/assignment-pinscale/login" component={Login} />
+    <ProtectedRoute exact path="/assignment-pinscale/" component={Dashboard} />
+    <ProtectedRoute
+      exact
+      path="/assignment-pinscale/transactions"
+      component={Transactions}
+    />
+    <ProtectedRoute
+      exact
+      path="/assignment-pinscale/profile"
+      component={Profile}
+    />
+  </Switch>
+);
+"homepage": "http://geethasaatvik07.github.io/assignment-pinscale", */
+
 /* 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 */

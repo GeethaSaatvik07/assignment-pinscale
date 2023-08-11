@@ -22,7 +22,7 @@ class LogoutPopup extends Component {
   onClickLogout = () => {
     const { history } = this.props;
     Cookies.remove("user_id");
-    history.replace("/assignment-pinscale/login");
+    history.replace("/login");
   };
 
   render() {

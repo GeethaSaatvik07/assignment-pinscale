@@ -24,6 +24,17 @@ export const FilterCreditDebit = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 25%;
+
+  //   @media (min-width: 576px) and (max-width: 768px) {
+  //     display: none;
+  //   }
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const TransactionsContainer = styled.div`

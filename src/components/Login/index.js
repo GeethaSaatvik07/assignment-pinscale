@@ -31,9 +31,9 @@ class LoginForm extends Component {
 
     Cookies.set("user_id", userId, {
       expires: 30,
-      path: "/assignment-pinscale/",
+      path: "/",
     });
-    history.replace("/assignment-pinscale/");
+    history.replace("/");
   };
 
   onSubmitFailure = (errorMsg) => {
@@ -106,7 +106,7 @@ class LoginForm extends Component {
     const { showSubmitError, errorMsg } = this.state;
     const jwtToken = Cookies.get("user_id");
     if (jwtToken !== undefined) {
-      return <Redirect to="/assignment-pinscale/" />;
+      return <Redirect to="/" />;
     }
     return (
       <div className="login-form-container">

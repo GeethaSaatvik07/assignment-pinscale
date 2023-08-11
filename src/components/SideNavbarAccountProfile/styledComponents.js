@@ -19,6 +19,10 @@ export const ProfileAvatar = styled.img`
   align-items: center;
   border-radius: 50%;
   margin-right: 0px;
+
+  @media (min-width: 567px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ProfileNameAndEmail = styled.p`
@@ -40,6 +44,10 @@ export const ProfileName = styled.h1`
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
+
+  @media (min-width: 567px) and (max-width: 768px) {
+    margin-right: 20px;
+  }
 `;
 
 export const ProfileEmail = styled.p`
@@ -49,6 +57,10 @@ export const ProfileEmail = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ProfileLogoutIcon = styled.button`

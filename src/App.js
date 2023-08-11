@@ -8,18 +8,10 @@ import "./App.css";
 
 const App = () => (
   <Switch>
-    <Route exact path="/assignment-pinscale/login" component={Login} />
-    <ProtectedRoute exact path="/assignment-pinscale/" component={Dashboard} />
-    <ProtectedRoute
-      exact
-      path="/assignment-pinscale/transactions"
-      component={Transactions}
-    />
-    <ProtectedRoute
-      exact
-      path="/assignment-pinscale/profile"
-      component={Profile}
-    />
+    <Route exact path="/login" component={Login} />
+    <ProtectedRoute exact path="/" component={Dashboard} />
+    <ProtectedRoute exact path="/transactions" component={Transactions} />
+    <ProtectedRoute exact path="/profile" component={Profile} />
   </Switch>
 );
 

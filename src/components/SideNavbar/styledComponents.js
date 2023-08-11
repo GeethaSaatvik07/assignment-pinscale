@@ -17,6 +17,10 @@ export const NameAndLogo = styled.div`
   gap: 11px;
   margin-left: 20px;
   margin-top: 31px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: 50px;
+  }
 `;
 
 export const CompanyName = styled.p`
@@ -26,10 +30,18 @@ export const CompanyName = styled.p`
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const CompanyNameMatters = styled.span`
   color: #02969c;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const CompanyPageNavigation = styled.div`

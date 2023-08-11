@@ -22,7 +22,7 @@ export const ActivePageNavigation = styled.li`
   height: 60px;
   justify-content: center;
   align-items: center;
-  gap: 26px;
+  //   gap: 26px;
   flex-shrink: 0;
   color: var(--primary-3, #2d60ff);
   font-family: Inter;
@@ -34,9 +34,9 @@ export const ActivePageNavigation = styled.li`
   background: none;
   color: none;
   margin-bottom: 20px;
+  border-left: 6px solid var(--primary-3, #2d60ff);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  border-left: 6px solid var(--primary-3, #2d60ff);
   height: 50px;
   list-style-type: none;
 `;
@@ -50,10 +50,18 @@ export const PageName = styled.p`
   border: none;
   background: none;
   color: none;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const PageActiveIcon = styled.div`
   margin-left: 38px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: -65px;
+  }
 `;
 
 export const PageIcon = styled.div`

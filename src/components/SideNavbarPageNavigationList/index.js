@@ -13,7 +13,7 @@ const SideNavbarPageNavigationList = (props) => {
 
   return (
     <>
-      <Link to="/assignment-pinscale/" className="page-link">
+      <Link to="/" className="page-link">
         {active === "Dashboard" ? (
           <ActivePageNavigation>
             <PageActiveIcon>
@@ -100,7 +100,7 @@ const SideNavbarPageNavigationList = (props) => {
           </PageNavigation>
         )}
       </Link>
-      <Link to="/assignment-pinscale/transactions" className="page-link">
+      <Link to="/transactions" className="page-link">
         {active === "Transactions" ? (
           <ActivePageNavigation>
             <PageActiveIcon>
@@ -243,7 +243,7 @@ const SideNavbarPageNavigationList = (props) => {
           </PageNavigation>
         )}
       </Link>
-      <Link to="/assignment-pinscale/profile" className="page-link">
+      <Link to="/profile" className="page-link">
         {active === "Profile" ? (
           <ActivePageNavigation>
             <PageActiveIcon>

@@ -18,7 +18,7 @@ import DashboardLastSevenDaysOverview from "../DashboardLastSevenDaysOverview";
 const Dashboard = () => {
   const jwtToken = Cookies.get("user_id");
   if (jwtToken === undefined) {
-    return <Redirect to="/assignment-pinscale/login" />;
+    return <Redirect to="/login" />;
   }
   return (
     <DashboardPage>
