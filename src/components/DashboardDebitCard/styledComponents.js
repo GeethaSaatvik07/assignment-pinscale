@@ -11,6 +11,16 @@ export const DebitTile = styled.div`
   border-radius: 25px;
   background: #fff;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+
+export const CreditAndDebitImage = styled.svg`
+  @media (max-width: 768px) {
+    padding-bottom: 40px;
+  }
 `;
 
 export const DebitTileMoney = styled.p`

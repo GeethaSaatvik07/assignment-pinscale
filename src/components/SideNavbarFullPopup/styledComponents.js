@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Sidebar = styled.div`
-  width: 17.36%;
+  width: 100%;
   height: 100%;
   border-right: 1px solid #e2e2e2;
   background: #fff;
@@ -9,10 +9,6 @@ export const Sidebar = styled.div`
   display flex;
   flex-direction: column;
   align-items: center;
-
-  @media (max-width: 576px){
-    display: none;
-  }
 `;
 
 export const NameAndLogo = styled.div`

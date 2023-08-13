@@ -6,6 +6,7 @@ import {
   CreditTile,
   CreditAndDebitTileMoneyAndName,
   CreditTileMoney,
+  CreditAndDebitImage,
   CreditAndDebitTileName,
 } from "./styledComponents";
 
@@ -109,7 +110,7 @@ class DashboardCreditCard extends Component {
         <CreditAndDebitTileMoneyAndName>
           {this.renderCreditMoney()}
         </CreditAndDebitTileMoneyAndName>
-        <svg
+        <CreditAndDebitImage
           xmlns="http://www.w3.org/2000/svg"
           width="183"
           height="161"
@@ -728,7 +729,7 @@ class DashboardCreditCard extends Component {
             d="M28.9268 7.56223H54.5085C54.9147 7.56223 55.2436 7.23333 55.2436 6.82589C55.2436 6.41845 54.9147 6.08955 54.5085 6.08955H28.9268C28.5193 6.08955 28.1904 6.41845 28.1904 6.82589C28.1904 7.23333 28.5193 7.56223 28.9268 7.56223ZM65.4727 1.47146H68.5187C68.9236 1.47146 69.2538 1.14256 69.2538 0.735114C69.2538 0.328898 68.9249 0 68.5174 0H65.4714C65.0665 0 64.7351 0.328898 64.7351 0.735114C64.7351 1.14133 65.064 1.47146 65.4714 1.47146H65.4727ZM60.6005 7.56223H63.0378C63.4428 7.56223 63.7729 7.23333 63.7729 6.82589C63.7729 6.41845 63.4428 6.08955 63.0366 6.08955H60.6005C60.1931 6.08955 59.8642 6.41845 59.8642 6.82589C59.8642 7.23333 60.1919 7.56223 60.6005 7.56223ZM33.7989 1.47146H60.6005C61.0055 1.47146 61.3356 1.14256 61.3356 0.735114C61.3356 0.327671 61.0067 0 60.5993 0H33.7989C33.3939 0 33.0626 0.328898 33.0626 0.735114C33.0626 1.14133 33.3915 1.47146 33.7989 1.47146Z"
             fill="#A3CFFB"
           />
-        </svg>
+        </CreditAndDebitImage>
       </CreditTile>
     );
   }

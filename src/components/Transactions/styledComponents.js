@@ -25,15 +25,13 @@ export const FilterCreditDebit = styled.div`
   align-items: center;
   width: 25%;
 
-  //   @media (min-width: 576px) and (max-width: 768px) {
-  //     display: none;
-  //   }
-  @media (max-width: 768px) {
+  @media (min-width: 576px) and (max-width: 768px) {
     width: 50%;
+    margin-left: 25px;
   }
 
   @media (max-width: 576px) {
-    width: 100%;
+    margin-left: 10px;
   }
 `;
 

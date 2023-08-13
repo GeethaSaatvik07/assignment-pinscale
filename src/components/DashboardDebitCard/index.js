@@ -6,6 +6,7 @@ import {
   CreditAndDebitTileMoneyAndName,
   CreditAndDebitTileName,
   DebitTile,
+  CreditAndDebitImage,
   DebitTileMoney,
 } from "./styledComponents";
 
@@ -112,7 +113,8 @@ class DashboardDebitCard extends Component {
         <CreditAndDebitTileMoneyAndName>
           {this.renderDebitMoney()}
         </CreditAndDebitTileMoneyAndName>
-        <svg
+
+        <CreditAndDebitImage
           xmlns="http://www.w3.org/2000/svg"
           width="189"
           height="155"
@@ -443,7 +445,7 @@ class DashboardDebitCard extends Component {
             d="M69.2312 27.6474C69.5075 25.4706 69.1522 24.7892 68.1562 25.6007C68.2931 25.8781 68.3001 26.2299 68.1759 26.6548C67.6999 27.4314 67.5908 28.287 67.8474 29.2146C68.3779 29.0509 68.8399 28.5262 69.2312 27.6474Z"
             fill="#FCB88D"
           />
-        </svg>
+        </CreditAndDebitImage>
       </DebitTile>
     );
   }

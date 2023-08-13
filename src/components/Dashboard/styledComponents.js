@@ -30,5 +30,8 @@ export const DashboardContainer = styled.div`
 export const CreditAndDebitContainer = styled.div`
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  //   flex-wrap: wrap;
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 `;

@@ -14,6 +14,17 @@ export const CreditTile = styled.div`
   background: #fff;
   margin-right: 24px;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-right: 0px;
+  }
+`;
+
+export const CreditAndDebitImage = styled.svg`
+  @media (max-width: 768px) {
+    padding-bottom: 40px;
+  }
 `;
 
 export const CreditAndDebitTileMoneyAndName = styled.div`

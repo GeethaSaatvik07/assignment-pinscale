@@ -1,15 +1,18 @@
 import Popup from "reactjs-popup";
 import Cookies from "js-cookie";
+import { AiOutlineMenu } from "react-icons/ai";
 
 import {
   HeaderStyle,
   HeaderHeading,
+  SideNavbarPopupMenuButton,
   AddTransactionButton,
   AddTransactionContext,
   PopupBackground,
 } from "./styledComponents";
 
 import AddTransactionPopup from "../AddTransactionPopup";
+import SideNavbarFullPopup from "../SideNavbarFullPopup";
 
 const Header = (props) => {
   const { heading } = props;
@@ -18,6 +21,20 @@ const Header = (props) => {
 
   return (
     <HeaderStyle>
+      <Popup
+        modal
+        trigger={
+          <SideNavbarPopupMenuButton>
+            <AiOutlineMenu />
+          </SideNavbarPopupMenuButton>
+        }
+      >
+        {(close) => (
+          <PopupBackground>
+            <SideNavbarFullPopup close={close} />
+          </PopupBackground>
+        )}
+      </Popup>
       <HeaderHeading>{heading}</HeaderHeading>
       {!isUserAdmin && (
         <Popup

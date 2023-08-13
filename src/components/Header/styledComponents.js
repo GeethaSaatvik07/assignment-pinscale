@@ -9,6 +9,22 @@ export const HeaderStyle = styled.nav`
   height: 84px;
 `;
 
+export const SideNavbarPopupMenuButton = styled.button`
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 28px;
+  color: black;
+
+  @media (max-width: 576px) {
+    display: block;
+  }
+
+  @media (min-width: 577px) {
+    display: none;
+  }
+`;
+
 export const HeaderHeading = styled.h1`
   color: #343c6a;
   font-family: Inter;
@@ -17,6 +33,14 @@ export const HeaderHeading = styled.h1`
   font-weight: 600;
   line-height: normal;
   margin-left: 40px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: 25px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: 0px;
+  }
 `;
 
 export const AddTransactionButton = styled.button`
@@ -31,6 +55,14 @@ export const AddTransactionButton = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-right: 25px;
+  }
+
+  @media (max-width: 576px) {
+    margin-right: 10px;
+  }
 `;
 
 export const AddTransactionContext = styled.p`
