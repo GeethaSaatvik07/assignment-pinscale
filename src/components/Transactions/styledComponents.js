@@ -10,6 +10,10 @@ export const TransactionsWithHeader = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const HeaderAndFilter = styled.div`
@@ -31,6 +35,7 @@ export const FilterCreditDebit = styled.div`
   }
 
   @media (max-width: 576px) {
+    width: 75%;
     margin-left: 10px;
   }
 `;
@@ -49,5 +54,9 @@ export const TransactionsContainer = styled.div`
 
   ::-ms-scrollbar {
     display: none;
+  }
+
+  @media (max-width: 576px) {
+    padding: 7px;
   }
 `;

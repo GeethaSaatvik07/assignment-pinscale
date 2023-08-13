@@ -17,6 +17,7 @@ export const CreditTile = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+    height: 19vh;
     margin-right: 0px;
   }
 `;

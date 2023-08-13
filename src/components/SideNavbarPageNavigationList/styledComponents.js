@@ -39,6 +39,10 @@ export const ActivePageNavigation = styled.li`
   border-bottom-left-radius: 5px;
   height: 50px;
   list-style-type: none;
+
+  @media (max-width: 576px) {
+    margin-left: -55px;
+  }
 `;
 
 export const PageName = styled.p`

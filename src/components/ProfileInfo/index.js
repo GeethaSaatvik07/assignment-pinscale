@@ -120,7 +120,7 @@ class ProfileInfo extends Component {
   };
 
   render() {
-    return <ProfileInfoContainer>{this.renderProfile()};</ProfileInfoContainer>;
+    return <ProfileInfoContainer>{this.renderProfile()}</ProfileInfoContainer>;
   }
 }
 

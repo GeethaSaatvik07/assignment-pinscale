@@ -4,7 +4,13 @@ export const ProfileInfoLabelAndBar = styled.div`
   display: flex;
   flex-direction: column;
   margin-right: 29px;
-`;
+  margin-bottom: 20px;
+  width: 45%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`
 
 export const ProfileLabel = styled.label`
   color: #505887;

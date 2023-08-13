@@ -1,14 +1,28 @@
 import styled from "styled-components";
 
 export const Sidebar = styled.div`
-  width: 100%;
+  width: 70%;
   height: 100%;
   border-right: 1px solid #e2e2e2;
   background: #fff;
   flex-shrink: 0;
-  display flex;
+  display: flex;
   flex-direction: column;
-  align-items: center;
+  //   align-items: center;
+`;
+
+export const LogoAndClose = styled.div`
+  splay: flex;
+justify-content: space-between;
+  ign-items: center;
+`;
+;
+export const PopupCloseButton = styled.button`
+  background: none;
+  border: none;
+  outline: none;
+  margin-right: 24px;
+  cursor: pointer;
 `;
 
 export const NameAndLogo = styled.div`
@@ -20,6 +34,10 @@ export const NameAndLogo = styled.div`
 
   @media (min-width: 576px) and (max-width: 768px) {
     margin-left: 50px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: 15px;
   }
 `;
 
@@ -51,4 +69,8 @@ export const CompanyPageNavigation = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 50px;
+
+  @media (max-width: 576px) {
+    margin-left: -30px;
+  }
 `;

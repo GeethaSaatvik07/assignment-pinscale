@@ -10,6 +10,10 @@ export const ProfileWithHeader = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const ProfileContainer = styled.div`
@@ -19,6 +23,10 @@ export const ProfileContainer = styled.div`
   padding: 15px;
   padding-bottom: 30px;
   scrollbar-width: none;
+
+  @media (max-width: 576px) {
+    padding: 7px;
+  }
 `;
 
 export const ProfileCard = styled.div`
@@ -38,4 +46,16 @@ export const ProfileImage = styled.img`
   margin-top: 48px;
   margin-left: 20px;
   margin-right: 48px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 150px;
+    height: 150px;
+    margin-right: 18px;
+  }
+
+  @media (max-width: 576px) {
+    width: 100px;
+    height: 100px;
+    margin-right: 7px;
+  }
 `;

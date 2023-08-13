@@ -22,6 +22,7 @@ export const SideNavbarPopupMenuButton = styled.button`
 
   @media (min-width: 577px) {
     display: none;
+    margin-left: 10px;
   }
 `;
 
@@ -83,6 +84,6 @@ export const PopupBackground = styled.div`
   backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  //   justify-content: center;
+  //   align-items: center;
 `;

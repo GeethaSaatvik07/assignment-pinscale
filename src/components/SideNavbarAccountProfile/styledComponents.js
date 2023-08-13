@@ -8,6 +8,10 @@ export const AccountProfileCard = styled.div`
   width: 130%;
   margin-top: 350px;
   border-top: 1px solid #eaecf0;
+
+  @media (max-width: 576px) {
+    margin-left: 20px;
+  }
 `;
 
 export const ProfileAvatar = styled.img`

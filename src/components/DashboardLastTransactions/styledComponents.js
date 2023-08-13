@@ -5,6 +5,13 @@ export const LastTransactionContainer = styled.div`
   flex-direction: column;
   background: #f5f7fa;
   margin-right: 25px;
+
+  //   @media (min-width: 576px) and (max-width: 768px) {
+  //     margin-right: 0px;
+  //   }
+  @media (max-width: 768px) {
+    margin-right: 0px;
+  }
 `;
 
 export const LastTransactionHeading = styled.p`
@@ -25,9 +32,17 @@ export const RecentTransactionsContainer = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 8px;
+  //   gap: 8px;
   flex-shrink: 0;
   border-radius: 25px;
   background: #fff;
   margin-bottom: 24px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    padding: 7px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 3px;
+  }
 `;

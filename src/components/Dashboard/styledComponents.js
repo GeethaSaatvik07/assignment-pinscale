@@ -10,6 +10,10 @@ export const DashboardWithHeader = styled.div`
   height: 100vh;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 576px) {
+    width: 100%;
+  }
 `;
 
 export const DashboardContainer = styled.div`
@@ -24,6 +28,10 @@ export const DashboardContainer = styled.div`
 
   ::-webkit-scrollbar {
     display: none;
+  }
+
+  @media (max-width: 576px) {
+    padding: 7px;
   }
 `;
 

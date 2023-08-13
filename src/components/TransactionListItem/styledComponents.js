@@ -10,12 +10,28 @@ export const TransactionItem = styled.div`
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
   margin-left: 15px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: 8px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: 0px;
+  }
 `;
 
 export const CreditDebitSymbolAndName = styled.div`
   display: flex;
   align-items: center;
   width: 30%;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 20%;
+  }
+
+  @media (max-width: 576px) {
+    width: 20%;
+  }
 `;
 
 export const TransactionName = styled.p`
@@ -26,6 +42,14 @@ export const TransactionName = styled.p`
   font-weight: 500;
   line-height: normal;
   margin-left: 16px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: 10px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: 4px;
+  }
 `;
 
 export const CategoryDateAmount = styled.div`
@@ -33,6 +57,18 @@ export const CategoryDateAmount = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 60%;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 65%;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 576px) {
+    width: 65%;
+    margin-right: 8px;
+    justify-content: space-between;
+  }
 `;
 
 export const TransactionCategory = styled.p`
@@ -43,6 +79,10 @@ export const TransactionCategory = styled.p`
   font-weight: 400;
   line-height: normal;
   width: 80px;
+
+  //   @media (min-width: 576px) and (max-width: 768px) {
+  //     width: 70px;
+  //   }
 `;
 
 export const TransactionDate = styled.p`
@@ -53,6 +93,16 @@ export const TransactionDate = styled.p`
   font-weight: 400;
   line-height: normal;
   width: 150px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 140px;
+    margin-left: -10px;
+  }
+
+  @media (max-width: 576px) {
+    width: 90px;
+    margin-left: 30px;
+  }
 `;
 
 export const TransactionDebitAmount = styled.p`
@@ -64,6 +114,16 @@ export const TransactionDebitAmount = styled.p`
   font-weight: 500;
   line-height: normal;
   width: 80px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    width: 70px;
+    margin-left: -40px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: -25px;
+    width: 50px;
+  }
 `;
 
 export const TransactionCreditAmount = styled(TransactionDebitAmount)`
@@ -81,6 +141,14 @@ export const EditButton = styled.button`
   border: none;
   outline: none;
   margin-right: 10px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-right: 6px;
+  }
+
+  @media (max-width: 576px) {
+    margin-right: 0px;
+  }
 `;
 
 export const DeleteButton = styled.button`
@@ -88,6 +156,14 @@ export const DeleteButton = styled.button`
   border: none;
   outline: none;
   margin-left: 10px;
+
+  @media (min-width: 576px) and (max-width: 768px) {
+    margin-left: 6px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: 0px;
+  }
 `;
 
 export const PopupBackground = styled.div`
